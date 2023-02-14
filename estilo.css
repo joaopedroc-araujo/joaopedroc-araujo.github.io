@@ -1,12 +1,21 @@
+body{
+    background-color: rgb(3, 3, 3);
+    color: rgb(245, 245, 245);
+    opacity: 0,7;
+}
 .fotoperfil {
     width: 200px;
     height: 200px;
     border-radius: 70%;    
 }
+#redes{
+    text-align: center;
+}
 
 #insta {
     width: 35px;
     height: auto;
+    border-radius: 70%;
 }
 
 #face{
@@ -18,4 +27,44 @@
     width: 35px;
     height: auto;
     border-radius: 70%;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#sobremim{
+    font-family: 'Times New Roman', Times, serif;
+}
+.javascript{
+    font-size: 35px;
+}
+.sql{
+    font-size: 35px;
+}
+.react{
+    font-size: 35px;
+}
+.bootstrap{
+    font-size: 35px;
+}
+.metoAgil{
+    font-size: 35px;
+}
+.indice{
+    text-align: right;
+}
+.indicelista{
+    text-align: right;
+    list-style-type: none;
+}
+.indicehabilidades{
+    align-items: right;
+    text-align: right;
+    list-style-type: none;
+}
+button{
+    border-style: none;
+    margin: 3px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
