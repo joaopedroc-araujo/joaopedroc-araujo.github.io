@@ -5,17 +5,17 @@
 }
 
 #insta {
-    width: 50px;
+    width: 35px;
     height: auto;
 }
 
 #face{
-   width: 50px;
-   height: 50px;
+   width: 35px;
+   height: auto;
 }
 
 #lkdn{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: auto;
     border-radius: 70%;
 }
