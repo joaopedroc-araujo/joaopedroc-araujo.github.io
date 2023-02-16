@@ -9,17 +9,19 @@ body {
     opacity: 0, 7;
     margin: 30px;
 }
-div h1{
+
+div h1 {
     text-align: left;
-    
+
 }
+
 .fotoperfil {
     width: 150px;
     height: 150px;
     border-radius: 70%;
     vertical-align: middle;
     padding: 20px;
- }
+}
 
 #redes {
     text-align: center;
@@ -73,29 +75,39 @@ div h1{
     margin: 30px;
 }
 
-.indice {
-    display: inline-flex;
-    margin: 10px;
+
+header {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .indicelista {
     list-style-type: none;
     display: inline-flex;
-    }
+}
+
+.indicelista li a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 7px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: background 4s;
+}
+
+.indicelista li a:hover {
+    background-color: rgb(123, 123, 151);
+}
 
 .indicehabilidades {
     list-style-type: none;
 }
 
-button {
-    border-style: none;
-    margin: 3px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px;
-    border-radius: 6px;
-    
-}
-div{
+div {
     margin: 30px;
 }
